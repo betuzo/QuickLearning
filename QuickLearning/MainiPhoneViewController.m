@@ -75,7 +75,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    //DetailProductsViewController *detailViewController = [[DetailProductsViewController alloc] initWithNibName:@"DetailProductsViewController" bundle:nil];
+    //DetailMainiPhoneViewController *detailViewController = [[DetailMainiPhoneViewController alloc] initWithNibName:@"DetailMainiPhoneViewController" bundle:nil];
     
     // Pass the selected object to the new view controller.
     //[self.navigationController pushViewController:detailViewController animated:YES];

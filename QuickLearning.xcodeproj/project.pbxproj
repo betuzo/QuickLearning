@@ -37,6 +37,14 @@
 		4A16CE2F152AABF800DC0D68 /* logoqlnav.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A16CE2E152AABF800DC0D68 /* logoqlnav.png */; };
 		4A16CE38152AB8F400DC0D68 /* MyCourseiPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A16CE36152AB8F300DC0D68 /* MyCourseiPhoneViewController.m */; };
 		4A16CE39152AB8F400DC0D68 /* MyCourseiPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A16CE37152AB8F400DC0D68 /* MyCourseiPhoneViewController.xib */; };
+		4A16CE42152B7F4200DC0D68 /* ParentMyCourseiPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A16CE40152B7F4000DC0D68 /* ParentMyCourseiPhoneViewController.m */; };
+		4A16CE43152B7F4200DC0D68 /* ParentMyCourseiPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A16CE41152B7F4100DC0D68 /* ParentMyCourseiPhoneViewController.xib */; };
+		4A16CE47152B7F5E00DC0D68 /* ParentSchoolsiPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A16CE45152B7F5E00DC0D68 /* ParentSchoolsiPhoneViewController.m */; };
+		4A16CE48152B7F5E00DC0D68 /* ParentSchoolsiPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A16CE46152B7F5E00DC0D68 /* ParentSchoolsiPhoneViewController.xib */; };
+		4A16CE4C152B7F8400DC0D68 /* ParentMainiPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A16CE4A152B7F8400DC0D68 /* ParentMainiPhoneViewController.m */; };
+		4A16CE4D152B7F8400DC0D68 /* ParentMainiPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A16CE4B152B7F8400DC0D68 /* ParentMainiPhoneViewController.xib */; };
+		4A16CE51152B7F9500DC0D68 /* ParentColoriPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A16CE4F152B7F9500DC0D68 /* ParentColoriPhoneViewController.m */; };
+		4A16CE52152B7F9500DC0D68 /* ParentColoriPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A16CE50152B7F9500DC0D68 /* ParentColoriPhoneViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +101,18 @@
 		4A16CE35152AB8F300DC0D68 /* MyCourseiPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCourseiPhoneViewController.h; sourceTree = "<group>"; };
 		4A16CE36152AB8F300DC0D68 /* MyCourseiPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCourseiPhoneViewController.m; sourceTree = "<group>"; };
 		4A16CE37152AB8F400DC0D68 /* MyCourseiPhoneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCourseiPhoneViewController.xib; sourceTree = "<group>"; };
+		4A16CE3F152B7F4000DC0D68 /* ParentMyCourseiPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentMyCourseiPhoneViewController.h; sourceTree = "<group>"; };
+		4A16CE40152B7F4000DC0D68 /* ParentMyCourseiPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentMyCourseiPhoneViewController.m; sourceTree = "<group>"; };
+		4A16CE41152B7F4100DC0D68 /* ParentMyCourseiPhoneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParentMyCourseiPhoneViewController.xib; sourceTree = "<group>"; };
+		4A16CE44152B7F5E00DC0D68 /* ParentSchoolsiPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentSchoolsiPhoneViewController.h; sourceTree = "<group>"; };
+		4A16CE45152B7F5E00DC0D68 /* ParentSchoolsiPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentSchoolsiPhoneViewController.m; sourceTree = "<group>"; };
+		4A16CE46152B7F5E00DC0D68 /* ParentSchoolsiPhoneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParentSchoolsiPhoneViewController.xib; sourceTree = "<group>"; };
+		4A16CE49152B7F8400DC0D68 /* ParentMainiPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentMainiPhoneViewController.h; sourceTree = "<group>"; };
+		4A16CE4A152B7F8400DC0D68 /* ParentMainiPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentMainiPhoneViewController.m; sourceTree = "<group>"; };
+		4A16CE4B152B7F8400DC0D68 /* ParentMainiPhoneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParentMainiPhoneViewController.xib; sourceTree = "<group>"; };
+		4A16CE4E152B7F9400DC0D68 /* ParentColoriPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentColoriPhoneViewController.h; sourceTree = "<group>"; };
+		4A16CE4F152B7F9500DC0D68 /* ParentColoriPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentColoriPhoneViewController.m; sourceTree = "<group>"; };
+		4A16CE50152B7F9500DC0D68 /* ParentColoriPhoneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParentColoriPhoneViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -304,6 +324,8 @@
 			isa = PBXGroup;
 			children = (
 				4A16CE1A152A541E00DC0D68 /* ColoriPhoneViewController.h */,
+				4A16CE4E152B7F9400DC0D68 /* ParentColoriPhoneViewController.h */,
+				4A16CE4F152B7F9500DC0D68 /* ParentColoriPhoneViewController.m */,
 				4A16CE1B152A541E00DC0D68 /* ColoriPhoneViewController.m */,
 			);
 			name = Color;
@@ -313,6 +335,8 @@
 			isa = PBXGroup;
 			children = (
 				4A16CE24152A544600DC0D68 /* MainiPhoneViewController.h */,
+				4A16CE49152B7F8400DC0D68 /* ParentMainiPhoneViewController.h */,
+				4A16CE4A152B7F8400DC0D68 /* ParentMainiPhoneViewController.m */,
 				4A16CE25152A544700DC0D68 /* MainiPhoneViewController.m */,
 			);
 			name = Main;
@@ -322,6 +346,8 @@
 			isa = PBXGroup;
 			children = (
 				4A16CE29152A546000DC0D68 /* SchoolsiPhoneViewController.h */,
+				4A16CE44152B7F5E00DC0D68 /* ParentSchoolsiPhoneViewController.h */,
+				4A16CE45152B7F5E00DC0D68 /* ParentSchoolsiPhoneViewController.m */,
 				4A16CE2A152A546000DC0D68 /* SchoolsiPhoneViewController.m */,
 			);
 			name = Schools;
@@ -332,6 +358,8 @@
 			children = (
 				4A16CE35152AB8F300DC0D68 /* MyCourseiPhoneViewController.h */,
 				4A16CE36152AB8F300DC0D68 /* MyCourseiPhoneViewController.m */,
+				4A16CE3F152B7F4000DC0D68 /* ParentMyCourseiPhoneViewController.h */,
+				4A16CE40152B7F4000DC0D68 /* ParentMyCourseiPhoneViewController.m */,
 			);
 			name = MyCourse;
 			sourceTree = "<group>";
@@ -339,6 +367,7 @@
 		4A16CE16152A53D200DC0D68 /* Color */ = {
 			isa = PBXGroup;
 			children = (
+				4A16CE50152B7F9500DC0D68 /* ParentColoriPhoneViewController.xib */,
 				4A16CE1C152A541F00DC0D68 /* ColoriPhoneViewController.xib */,
 			);
 			name = Color;
@@ -347,6 +376,7 @@
 		4A16CE17152A53D400DC0D68 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				4A16CE4B152B7F8400DC0D68 /* ParentMainiPhoneViewController.xib */,
 				4A16CE26152A544800DC0D68 /* MainiPhoneViewController.xib */,
 			);
 			name = Main;
@@ -355,6 +385,7 @@
 		4A16CE18152A53D600DC0D68 /* Schools */ = {
 			isa = PBXGroup;
 			children = (
+				4A16CE46152B7F5E00DC0D68 /* ParentSchoolsiPhoneViewController.xib */,
 				4A16CE2B152A546000DC0D68 /* SchoolsiPhoneViewController.xib */,
 			);
 			name = Schools;
@@ -363,6 +394,7 @@
 		4A16CE19152A53D800DC0D68 /* MyCourse */ = {
 			isa = PBXGroup;
 			children = (
+				4A16CE41152B7F4100DC0D68 /* ParentMyCourseiPhoneViewController.xib */,
 				4A16CE37152AB8F400DC0D68 /* MyCourseiPhoneViewController.xib */,
 			);
 			name = MyCourse;
@@ -451,6 +483,10 @@
 				4A16CE2D152A546100DC0D68 /* SchoolsiPhoneViewController.xib in Resources */,
 				4A16CE2F152AABF800DC0D68 /* logoqlnav.png in Resources */,
 				4A16CE39152AB8F400DC0D68 /* MyCourseiPhoneViewController.xib in Resources */,
+				4A16CE43152B7F4200DC0D68 /* ParentMyCourseiPhoneViewController.xib in Resources */,
+				4A16CE48152B7F5E00DC0D68 /* ParentSchoolsiPhoneViewController.xib in Resources */,
+				4A16CE4D152B7F8400DC0D68 /* ParentMainiPhoneViewController.xib in Resources */,
+				4A16CE52152B7F9500DC0D68 /* ParentColoriPhoneViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +531,10 @@
 				4A16CE27152A544800DC0D68 /* MainiPhoneViewController.m in Sources */,
 				4A16CE2C152A546100DC0D68 /* SchoolsiPhoneViewController.m in Sources */,
 				4A16CE38152AB8F400DC0D68 /* MyCourseiPhoneViewController.m in Sources */,
+				4A16CE42152B7F4200DC0D68 /* ParentMyCourseiPhoneViewController.m in Sources */,
+				4A16CE47152B7F5E00DC0D68 /* ParentSchoolsiPhoneViewController.m in Sources */,
+				4A16CE4C152B7F8400DC0D68 /* ParentMainiPhoneViewController.m in Sources */,
+				4A16CE51152B7F9500DC0D68 /* ParentColoriPhoneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

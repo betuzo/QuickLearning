@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MyCourseiPhoneViewController.h"
-#import "ColoriPhoneViewController.h"
-#import "SchoolsiPhoneViewController.h"
-#import "MainiPhoneViewController.h"
+#import "ParentMyCourseiPhoneViewController.h"
+#import "ParentColoriPhoneViewController.h"
+#import "ParentSchoolsiPhoneViewController.h"
+#import "ParentMainiPhoneViewController.h"
 
 @interface HomeiPhoneViewController : UIViewController
 {

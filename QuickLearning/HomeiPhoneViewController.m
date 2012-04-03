@@ -38,52 +38,26 @@
     CGRect frameNavigation;
     
     frameNavigation.origin.x = 0;
-    frameNavigation.origin.y = 0;
+    frameNavigation.origin.y = -20;
     frameNavigation.size.width = 320;
     frameNavigation.size.height = 44;
 	
-	UIViewController *viewController1 = [[MainiPhoneViewController alloc] initWithNibName:@"MainiPhoneViewController" bundle:nil];
-    
-    UINavigationController *navigationController1 = [[UINavigationController alloc] initWithRootViewController:viewController1];
-    [navigationController1.view setFrame:frameNavigation];
-    [navigationController1.view setFrame:viewController1.view.bounds];
-
-    [navigationController1.navigationBar setBackgroundImage:[UIImage imageNamed:@"logoqlnav"] forBarMetrics:UIBarMetricsDefault];
-    [viewController1.view addSubview:navigationController1.view];
-    
+	UIViewController *viewController1 = [[ParentMainiPhoneViewController alloc] initWithNibName:@"ParentMainiPhoneViewController" bundle:nil];
     UITabBarItem *tab1 = [[UITabBarItem alloc] initWithTitle:@"Main"
                                                        image:[UIImage imageNamed:@"destacados-on"] tag:1];
-    [viewController1 setTabBarItem:tab1];  
+    [viewController1 setTabBarItem:tab1];
     
-	UIViewController *viewController2 = [[ColoriPhoneViewController alloc] initWithNibName:@"ColoriPhoneViewController" bundle:nil];
-    
-    UINavigationController *navigationController2 = [[UINavigationController alloc] initWithRootViewController:viewController2];
-    [navigationController2.view setFrame:frameNavigation];
-    [navigationController2.navigationBar setBackgroundImage:[UIImage imageNamed:@"logoqlnav"] forBarMetrics:UIBarMetricsDefault];
-    [viewController2.view addSubview:navigationController2.view];
-    
+	UIViewController *viewController2 = [[ParentColoriPhoneViewController alloc] initWithNibName:@"ParentColoriPhoneViewController" bundle:nil];     
     UITabBarItem *tab2 = [[UITabBarItem alloc] initWithTitle:@"Color"
                                                        image:[UIImage imageNamed:@"productos-on"] tag:2];
     [viewController2 setTabBarItem:tab2];      
     
-	UIViewController *viewController3 = [[SchoolsiPhoneViewController alloc] initWithNibName:@"SchoolsiPhoneViewController" bundle:nil];
-    
-    UINavigationController *navigationController3 = [[UINavigationController alloc] initWithRootViewController:viewController3];
-    [navigationController3.view setFrame:frameNavigation];
-    [navigationController3.navigationBar setBackgroundImage:[UIImage imageNamed:@"logoqlnav"] forBarMetrics:UIBarMetricsDefault];
-    [viewController3.view addSubview:navigationController3.view];
-    
+	UIViewController *viewController3 = [[ParentSchoolsiPhoneViewController alloc] initWithNibName:@"ParentSchoolsiPhoneViewController" bundle:nil];
     UITabBarItem *tab3 = [[UITabBarItem alloc] initWithTitle:@"My course"
                                                        image:[UIImage imageNamed:@"tiendas-on"] tag:3];
     [viewController3 setTabBarItem:tab3];  
     
-    UIViewController *viewController4 = [[MyCourseiPhoneViewController alloc] initWithNibName:@"MyCourseiPhoneViewController" bundle:nil];
-    
-    UINavigationController *navigationController4 = [[UINavigationController alloc] initWithRootViewController:viewController4];
-    [navigationController4.view setFrame:frameNavigation];
-    [navigationController4.navigationBar setBackgroundImage:[UIImage imageNamed:@"logoqlnav"] forBarMetrics:UIBarMetricsDefault];
-    [viewController4.view addSubview:navigationController4.view];
-    
+    UIViewController *viewController4 = [[ParentMyCourseiPhoneViewController alloc] initWithNibName:@"ParentMyCourseiPhoneViewController" bundle:nil];
     UITabBarItem *tab4 = [[UITabBarItem alloc] initWithTitle:@"Schools"
                                                        image:[UIImage imageNamed:@"carrito-on"] tag:4];
     [viewController4 setTabBarItem:tab4];    
