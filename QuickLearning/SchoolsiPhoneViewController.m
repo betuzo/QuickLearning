@@ -69,4 +69,42 @@
     }
 }
 
+#pragma mark - mapview delegate 
+
+- (MKAnnotationView *)mapView:(MKMapView *)map viewForAnnotation:(id <MKAnnotation>)annotation
+{
+    static NSString *AnnotationViewID = @"annotationViewID";
+	
+    MKAnnotationView *annotationView = (MKAnnotationView *)[_schoolsMapView dequeueReusableAnnotationViewWithIdentifier:AnnotationViewID];
+	
+    if (annotationView == nil)
+    {
+        annotationView = [[MKAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:AnnotationViewID];
+    }
+	
+	
+	if ([annotation isKindOfClass:[SchoolPinAnotation class]]) {
+		annotationView.image = [UIImage imageNamed:@"pinQ.png"];
+		annotationView.annotation = annotation;
+		annotationView.canShowCallout = YES;
+		UIButton* rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+		annotationView.rightCalloutAccessoryView = rightButton;
+		
+		
+		return annotationView;
+	}
+	else{
+	    return nil;
+	}
+    
+	
+}
+
+- (void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control
+{
+	
+	//StoresDescriptionViewController *storesDetailViewController = [[StoresDescriptionViewController alloc]initWithNibName:@"StoresDescriptionViewController" bundle:nil];
+	//[self.navigationController pushViewController:storesDetailViewController animated:YES];
+}
+
 @end
