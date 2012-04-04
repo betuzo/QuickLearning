@@ -42,6 +42,8 @@
 		
 		
     }
+    
+    [QuickLearningService initializeDatosTest];
 }
 
 - (void)viewDidUnload

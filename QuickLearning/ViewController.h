@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "LoginiPadViewController.h"
 #import "LoginiPhoneViewController.h"
+#import "QuickLearningService.h"
 
 @interface ViewController : UIViewController
 {

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "QuickLearningService.h"
 
 @interface SchoolsiPhoneViewController : UIViewController
 

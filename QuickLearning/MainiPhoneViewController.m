@@ -51,7 +51,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 3;
+    return [[QuickLearningService seccInfo] count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -60,13 +60,13 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
     cell.selectionStyle = UITableViewCellSelectionStyleGray;
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
-    cell.textLabel.text = @"Prueba";
-    cell.detailTextLabel.text = @"Prueba";
+    cell.textLabel.text = [[QuickLearningService seccInfo] objectAtIndex:indexPath.row];
     
     return cell;
     
@@ -81,6 +81,11 @@
     //[self.navigationController pushViewController:detailViewController animated:YES];
     
 	
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    return [[QuickLearningService usuario] objectAtIndex:2];
 }
 
 

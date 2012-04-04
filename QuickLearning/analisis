@@ -1,0 +1,98 @@
+Usuario
+	idUser
+	password
+	nombre
+	apellido
+	mail
+	fechaNacimeinto
+    estado
+	sucursal(1)
+		idSucursal
+		nombre
+		telefono
+		mail
+		latitud
+		longitud
+	horario(1)
+		horaInicio
+		horaFin
+	niveles(n)
+		idNivel
+        nombre
+		estado
+		fechaIncio
+		fechaFin
+		calificacion
+	pagos(n)
+		idPago
+        nivel(n)
+		tipo
+		fechaPago
+		cantidad
+	
+QuickLearning
+	sucursales(n)
+	nivelContenido(1)
+		nivel(1)
+		ejercicios
+        
+        
+        [[NSArray alloc] initWithObjects:
+            @"QLS022", @"Zona Rosa", @"55896300", @"zonarosa@quicklearning.com", @"19.424213", @"-99.164464",nil],
+        [[NSArray alloc] initWithObjects:
+            @"QLS022", @"Zona Rosa", @"55896300", @"zonarosa@quicklearning.com", @"19.424213", @"-99.164464",nil],
+        [[NSArray alloc] initWithObjects:
+            @"QLS022", @"Zona Rosa", @"55896300", @"zonarosa@quicklearning.com", @"19.424213", @"-99.164464",nil],
+        [[NSArray alloc] initWithObjects:
+            @"QLS022", @"Zona Rosa", @"55896300", @"zonarosa@quicklearning.com", @"19.424213", @"-99.164464",nil],
+        [[NSArray alloc] initWithObjects:
+            @"QLS022", @"Zona Rosa", @"55896300", @"zonarosa@quicklearning.com", @"19.424213", @"-99.164464",nil],
+        [[NSArray alloc] initWithObjects:
+            @"QLS022", @"Zona Rosa", @"55896300", @"zonarosa@quicklearning.com", @"19.424213", @"-99.164464",nil],
+        [[NSArray alloc] initWithObjects:
+            @"QLS022", @"Zona Rosa", @"55896300", @"zonarosa@quicklearning.com", @"19.424213", @"-99.164464",nil],
+        [[NSArray alloc] initWithObjects:
+            @"QLS022", @"Zona Rosa", @"55896300", @"zonarosa@quicklearning.com", @"19.424213", @"-99.164464",nil],
+        
+        
+        
+        
+        
+        
++ (void) setUsuario:(NSArray *) elUsuario
+{
+    usuario = elUsuario;
+}
++ (void) setSucursaUsuario:(NSArray *) elSucursaUsuario
+{
+    sucursaUsuario = elSucursaUsuario;
+}
++ (void) setHorarioUsuario:(NSArray *) elHorarioUsuario
+{
+    horarioUsuario = elHorarioUsuario;
+}
++ (void) setSeccInfo:(NSArray *) elSeccInfo
+{
+    seccInfo = elSeccInfo;
+}
++ (void) setNivelesUsuario:(NSArray *) elNivelesUsuario
+{
+    nivelesUsuario = elNivelesUsuario;
+}
++ (void) setPagosUsuario:(NSArray *) elPagosUsuario
+{
+    pagosUsuario = elPagosUsuario;
+}
++ (void) setSucursales:(NSArray *) elSucursales
+{
+    sucursales = elSucursales;
+}
+
+
++ (void) setUsuario:(NSArray *) elUsuario;
++ (void) setSucursaUsuario:(NSArray *) elSucursaUsuario;
++ (void) setHorarioUsuario:(NSArray *) elHorarioUsuario;
++ (void) setSeccInfo:(NSArray *) elSeccInfo;
++ (void) setNivelesUsuario:(NSArray *) elNivelesUsuario;
++ (void) setPagosUsuario:(NSArray *) elPagosUsuario;
++ (void) setSucursales:(NSArray *) elSucursales;
