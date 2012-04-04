@@ -9,6 +9,7 @@ Usuario
 	sucursal(1)
 		idSucursal
 		nombre
+        calle
 		telefono
 		mail
 		latitud

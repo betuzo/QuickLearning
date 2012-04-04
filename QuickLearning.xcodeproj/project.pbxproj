@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4A13ADD7152CDF660054447D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A13ADD6152CDF660054447D /* MapKit.framework */; };
 		4A13ADDA152CE3040054447D /* pinQ.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A13ADD9152CE3040054447D /* pinQ.png */; };
+		4A13ADE5152CE9870054447D /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A13ADE4152CE9860054447D /* iCarousel.m */; };
+		4A13ADE7152CE9A90054447D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A13ADE6152CE9A90054447D /* QuartzCore.framework */; };
 		4A16CDB61529FAAC00DC0D68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A16CDB51529FAAC00DC0D68 /* UIKit.framework */; };
 		4A16CDB81529FAAC00DC0D68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A16CDB71529FAAC00DC0D68 /* Foundation.framework */; };
 		4A16CDBA1529FAAC00DC0D68 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A16CDB91529FAAC00DC0D68 /* CoreGraphics.framework */; };
@@ -47,6 +49,17 @@
 		4A16CE4D152B7F8400DC0D68 /* ParentMainiPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A16CE4B152B7F8400DC0D68 /* ParentMainiPhoneViewController.xib */; };
 		4A16CE51152B7F9500DC0D68 /* ParentColoriPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A16CE4F152B7F9500DC0D68 /* ParentColoriPhoneViewController.m */; };
 		4A16CE52152B7F9500DC0D68 /* ParentColoriPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A16CE50152B7F9500DC0D68 /* ParentColoriPhoneViewController.xib */; };
+		4AA536E2152CFE81007933A1 /* page.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA536E1152CFE81007933A1 /* page.png */; };
+		4AA536EA152D011D007933A1 /* phone-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA536E8152D011C007933A1 /* phone-icon.png */; };
+		4AA536EB152D011D007933A1 /* comp-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA536E9152D011C007933A1 /* comp-icon.png */; };
+		4AA536F4152D03C7007933A1 /* QLS006.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AA536EC152D03C5007933A1 /* QLS006.jpg */; };
+		4AA536F5152D03C7007933A1 /* QLS004.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AA536ED152D03C5007933A1 /* QLS004.jpg */; };
+		4AA536F6152D03C7007933A1 /* QLS008.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AA536EE152D03C5007933A1 /* QLS008.jpg */; };
+		4AA536F7152D03C7007933A1 /* QLS003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AA536EF152D03C5007933A1 /* QLS003.jpg */; };
+		4AA536F8152D03C7007933A1 /* QLS007.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AA536F0152D03C6007933A1 /* QLS007.jpg */; };
+		4AA536F9152D03C7007933A1 /* QLS002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AA536F1152D03C6007933A1 /* QLS002.jpg */; };
+		4AA536FA152D03C7007933A1 /* QLS005.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AA536F2152D03C6007933A1 /* QLS005.jpg */; };
+		4AA536FB152D03C7007933A1 /* QLS001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AA536F3152D03C6007933A1 /* QLS001.jpg */; };
 		4AEEB852152BBDF800FD51F1 /* QuickLearningService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEEB851152BBDF800FD51F1 /* QuickLearningService.m */; };
 		4AEEB854152BBFDD00FD51F1 /* analisis in Resources */ = {isa = PBXBuildFile; fileRef = 4AEEB853152BBFDD00FD51F1 /* analisis */; };
 		4AEEB85E152CB4B600FD51F1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AEEB85D152CB4B500FD51F1 /* AudioToolbox.framework */; };
@@ -70,6 +83,9 @@
 /* Begin PBXFileReference section */
 		4A13ADD6152CDF660054447D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		4A13ADD9152CE3040054447D /* pinQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinQ.png; sourceTree = "<group>"; };
+		4A13ADE3152CE9860054447D /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iCarousel.h; path = ../iCarousel.h; sourceTree = "<group>"; };
+		4A13ADE4152CE9860054447D /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iCarousel.m; path = ../iCarousel.m; sourceTree = "<group>"; };
+		4A13ADE6152CE9A90054447D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		4A16CDB11529FAAC00DC0D68 /* QuickLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A16CDB51529FAAC00DC0D68 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4A16CDB71529FAAC00DC0D68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -125,6 +141,17 @@
 		4A16CE4E152B7F9400DC0D68 /* ParentColoriPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentColoriPhoneViewController.h; sourceTree = "<group>"; };
 		4A16CE4F152B7F9500DC0D68 /* ParentColoriPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentColoriPhoneViewController.m; sourceTree = "<group>"; };
 		4A16CE50152B7F9500DC0D68 /* ParentColoriPhoneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParentColoriPhoneViewController.xib; sourceTree = "<group>"; };
+		4AA536E1152CFE81007933A1 /* page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page.png; sourceTree = "<group>"; };
+		4AA536E8152D011C007933A1 /* phone-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone-icon.png"; sourceTree = "<group>"; };
+		4AA536E9152D011C007933A1 /* comp-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "comp-icon.png"; sourceTree = "<group>"; };
+		4AA536EC152D03C5007933A1 /* QLS006.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = QLS006.jpg; sourceTree = "<group>"; };
+		4AA536ED152D03C5007933A1 /* QLS004.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = QLS004.jpg; sourceTree = "<group>"; };
+		4AA536EE152D03C5007933A1 /* QLS008.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = QLS008.jpg; sourceTree = "<group>"; };
+		4AA536EF152D03C5007933A1 /* QLS003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = QLS003.jpg; sourceTree = "<group>"; };
+		4AA536F0152D03C6007933A1 /* QLS007.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = QLS007.jpg; sourceTree = "<group>"; };
+		4AA536F1152D03C6007933A1 /* QLS002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = QLS002.jpg; sourceTree = "<group>"; };
+		4AA536F2152D03C6007933A1 /* QLS005.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = QLS005.jpg; sourceTree = "<group>"; };
+		4AA536F3152D03C6007933A1 /* QLS001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = QLS001.jpg; sourceTree = "<group>"; };
 		4AEEB850152BBDF800FD51F1 /* QuickLearningService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickLearningService.h; sourceTree = "<group>"; };
 		4AEEB851152BBDF800FD51F1 /* QuickLearningService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickLearningService.m; sourceTree = "<group>"; };
 		4AEEB853152BBFDD00FD51F1 /* analisis */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = analisis; sourceTree = "<group>"; };
@@ -142,6 +169,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A13ADE7152CE9A90054447D /* QuartzCore.framework in Frameworks */,
 				4A13ADD7152CDF660054447D /* MapKit.framework in Frameworks */,
 				4AEEB867152CB8B100FD51F1 /* MediaPlayer.framework in Frameworks */,
 				4AEEB865152CB89700FD51F1 /* AVFoundation.framework in Frameworks */,
@@ -168,6 +196,7 @@
 		4A16CDA61529FAAC00DC0D68 = {
 			isa = PBXGroup;
 			children = (
+				4A13ADE6152CE9A90054447D /* QuartzCore.framework */,
 				4A13ADD6152CDF660054447D /* MapKit.framework */,
 				4AEEB866152CB8B000FD51F1 /* MediaPlayer.framework */,
 				4AEEB864152CB89700FD51F1 /* AVFoundation.framework */,
@@ -247,6 +276,19 @@
 		4A16CDED152A30D600DC0D68 /* Recursos */ = {
 			isa = PBXGroup;
 			children = (
+				4AA536EC152D03C5007933A1 /* QLS006.jpg */,
+				4AA536ED152D03C5007933A1 /* QLS004.jpg */,
+				4AA536EE152D03C5007933A1 /* QLS008.jpg */,
+				4AA536EF152D03C5007933A1 /* QLS003.jpg */,
+				4AA536F0152D03C6007933A1 /* QLS007.jpg */,
+				4AA536F1152D03C6007933A1 /* QLS002.jpg */,
+				4AA536F2152D03C6007933A1 /* QLS005.jpg */,
+				4AA536F3152D03C6007933A1 /* QLS001.jpg */,
+				4AA536E8152D011C007933A1 /* phone-icon.png */,
+				4AA536E9152D011C007933A1 /* comp-icon.png */,
+				4AA536E1152CFE81007933A1 /* page.png */,
+				4A13ADE3152CE9860054447D /* iCarousel.h */,
+				4A13ADE4152CE9860054447D /* iCarousel.m */,
 				4A13ADD9152CE3040054447D /* pinQ.png */,
 				4AEEB86A152CBC0900FD51F1 /* bocina.png */,
 				4AEEB868152CBA2A00FD51F1 /* sound.caf */,
@@ -529,6 +571,17 @@
 				4AEEB869152CBA2A00FD51F1 /* sound.caf in Resources */,
 				4AEEB86B152CBC0900FD51F1 /* bocina.png in Resources */,
 				4A13ADDA152CE3040054447D /* pinQ.png in Resources */,
+				4AA536E2152CFE81007933A1 /* page.png in Resources */,
+				4AA536EA152D011D007933A1 /* phone-icon.png in Resources */,
+				4AA536EB152D011D007933A1 /* comp-icon.png in Resources */,
+				4AA536F4152D03C7007933A1 /* QLS006.jpg in Resources */,
+				4AA536F5152D03C7007933A1 /* QLS004.jpg in Resources */,
+				4AA536F6152D03C7007933A1 /* QLS008.jpg in Resources */,
+				4AA536F7152D03C7007933A1 /* QLS003.jpg in Resources */,
+				4AA536F8152D03C7007933A1 /* QLS007.jpg in Resources */,
+				4AA536F9152D03C7007933A1 /* QLS002.jpg in Resources */,
+				4AA536FA152D03C7007933A1 /* QLS005.jpg in Resources */,
+				4AA536FB152D03C7007933A1 /* QLS001.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,6 +632,7 @@
 				4A16CE51152B7F9500DC0D68 /* ParentColoriPhoneViewController.m in Sources */,
 				4AEEB852152BBDF800FD51F1 /* QuickLearningService.m in Sources */,
 				4AEEB873152CC20000FD51F1 /* SchoolPinAnotation.m in Sources */,
+				4A13ADE5152CE9870054447D /* iCarousel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

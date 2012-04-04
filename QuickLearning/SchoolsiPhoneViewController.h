@@ -10,13 +10,24 @@
 #import "QuickLearningService.h"
 #import <MapKit/MapKit.h>
 #import "SchoolPinAnotation.h"
+#import "iCarousel.h"
 
-@interface SchoolsiPhoneViewController : UIViewController <MKMapViewDelegate , MKAnnotation>
+@interface SchoolsiPhoneViewController : UIViewController <MKMapViewDelegate , MKAnnotation,iCarouselDataSource, iCarouselDelegate>
 {
 	IBOutlet MKMapView *schoolsMapView;
 }
 
 @property (nonatomic , strong) IBOutlet MKMapView *schoolsMapView;
+
+@property (nonatomic, retain) IBOutlet iCarousel *carousel;
+
+@property (nonatomic, retain) IBOutlet UILabel *name;
+
+@property (nonatomic, retain) IBOutlet UILabel *address;
+
+@property (nonatomic, retain) IBOutlet UILabel *email;
+
+@property (nonatomic, retain) IBOutlet UILabel *telephone;
 
 - (void)generatePins;
 
