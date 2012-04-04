@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A13ADD7152CDF660054447D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A13ADD6152CDF660054447D /* MapKit.framework */; };
 		4A16CDB61529FAAC00DC0D68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A16CDB51529FAAC00DC0D68 /* UIKit.framework */; };
 		4A16CDB81529FAAC00DC0D68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A16CDB71529FAAC00DC0D68 /* Foundation.framework */; };
 		4A16CDBA1529FAAC00DC0D68 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A16CDB91529FAAC00DC0D68 /* CoreGraphics.framework */; };
@@ -52,6 +53,7 @@
 		4AEEB867152CB8B100FD51F1 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AEEB866152CB8B000FD51F1 /* MediaPlayer.framework */; };
 		4AEEB869152CBA2A00FD51F1 /* sound.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4AEEB868152CBA2A00FD51F1 /* sound.caf */; };
 		4AEEB86B152CBC0900FD51F1 /* bocina.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AEEB86A152CBC0900FD51F1 /* bocina.png */; };
+		4AEEB873152CC20000FD51F1 /* SchoolPinAnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEEB872152CC20000FD51F1 /* SchoolPinAnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A13ADD6152CDF660054447D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		4A16CDB11529FAAC00DC0D68 /* QuickLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A16CDB51529FAAC00DC0D68 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4A16CDB71529FAAC00DC0D68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -128,6 +131,8 @@
 		4AEEB866152CB8B000FD51F1 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		4AEEB868152CBA2A00FD51F1 /* sound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound.caf; sourceTree = "<group>"; };
 		4AEEB86A152CBC0900FD51F1 /* bocina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bocina.png; sourceTree = "<group>"; };
+		4AEEB871152CC20000FD51F1 /* SchoolPinAnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolPinAnotation.h; sourceTree = "<group>"; };
+		4AEEB872152CC20000FD51F1 /* SchoolPinAnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolPinAnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A13ADD7152CDF660054447D /* MapKit.framework in Frameworks */,
 				4AEEB867152CB8B100FD51F1 /* MediaPlayer.framework in Frameworks */,
 				4AEEB865152CB89700FD51F1 /* AVFoundation.framework in Frameworks */,
 				4AEEB85E152CB4B600FD51F1 /* AudioToolbox.framework in Frameworks */,
@@ -160,6 +166,7 @@
 		4A16CDA61529FAAC00DC0D68 = {
 			isa = PBXGroup;
 			children = (
+				4A13ADD6152CDF660054447D /* MapKit.framework */,
 				4AEEB866152CB8B000FD51F1 /* MediaPlayer.framework */,
 				4AEEB864152CB89700FD51F1 /* AVFoundation.framework */,
 				4AEEB85D152CB4B500FD51F1 /* AudioToolbox.framework */,
@@ -372,9 +379,11 @@
 			isa = PBXGroup;
 			children = (
 				4A16CE29152A546000DC0D68 /* SchoolsiPhoneViewController.h */,
+				4A16CE2A152A546000DC0D68 /* SchoolsiPhoneViewController.m */,
 				4A16CE44152B7F5E00DC0D68 /* ParentSchoolsiPhoneViewController.h */,
 				4A16CE45152B7F5E00DC0D68 /* ParentSchoolsiPhoneViewController.m */,
-				4A16CE2A152A546000DC0D68 /* SchoolsiPhoneViewController.m */,
+				4AEEB871152CC20000FD51F1 /* SchoolPinAnotation.h */,
+				4AEEB872152CC20000FD51F1 /* SchoolPinAnotation.m */,
 			);
 			name = Schools;
 			sourceTree = "<group>";
@@ -565,6 +574,7 @@
 				4A16CE4C152B7F8400DC0D68 /* ParentMainiPhoneViewController.m in Sources */,
 				4A16CE51152B7F9500DC0D68 /* ParentColoriPhoneViewController.m in Sources */,
 				4AEEB852152BBDF800FD51F1 /* QuickLearningService.m in Sources */,
+				4AEEB873152CC20000FD51F1 /* SchoolPinAnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

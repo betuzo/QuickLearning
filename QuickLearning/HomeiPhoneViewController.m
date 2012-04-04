@@ -53,12 +53,12 @@
     [viewController2 setTabBarItem:tab2];      
     
 	UIViewController *viewController3 = [[ParentSchoolsiPhoneViewController alloc] initWithNibName:@"ParentSchoolsiPhoneViewController" bundle:nil];
-    UITabBarItem *tab3 = [[UITabBarItem alloc] initWithTitle:@"My course"
+    UITabBarItem *tab3 = [[UITabBarItem alloc] initWithTitle:@"Schools"
                                                        image:[UIImage imageNamed:@"tiendas-on"] tag:3];
     [viewController3 setTabBarItem:tab3];  
     
     UIViewController *viewController4 = [[ParentMyCourseiPhoneViewController alloc] initWithNibName:@"ParentMyCourseiPhoneViewController" bundle:nil];
-    UITabBarItem *tab4 = [[UITabBarItem alloc] initWithTitle:@"Schools"
+    UITabBarItem *tab4 = [[UITabBarItem alloc] initWithTitle:@"My course"
                                                        image:[UIImage imageNamed:@"carrito-on"] tag:4];
     [viewController4 setTabBarItem:tab4];    
     

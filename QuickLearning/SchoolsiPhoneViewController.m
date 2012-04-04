@@ -10,6 +10,8 @@
 
 @implementation SchoolsiPhoneViewController
 
+@synthesize schoolsMapView = _schoolsMapView;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -32,6 +34,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self generatePins];
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -46,6 +49,24 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+- (void)generatePins
+{
+    for (id sucursal in [QuickLearningService sucursales]) 
+    {
+        CLLocationCoordinate2D theCoordinate;
+        theCoordinate.latitude = [[sucursal objectAtIndex:5] doubleValue];
+        theCoordinate.longitude = [[sucursal objectAtIndex:6] doubleValue];
+        
+        SchoolPinAnotation* myAnnotation=[[SchoolPinAnotation alloc] init];
+        
+        myAnnotation.coordinate=theCoordinate;
+        myAnnotation.title=[sucursal objectAtIndex:1];
+        myAnnotation.subtitle=[sucursal objectAtIndex:2];
+        
+        [_schoolsMapView addAnnotation:myAnnotation];
+    }
 }
 
 @end

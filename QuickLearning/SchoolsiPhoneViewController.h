@@ -8,7 +8,16 @@
 
 #import <UIKit/UIKit.h>
 #import "QuickLearningService.h"
+#import <MapKit/MapKit.h>
+#import "SchoolPinAnotation.h"
 
-@interface SchoolsiPhoneViewController : UIViewController
+@interface SchoolsiPhoneViewController : UIViewController <MKMapViewDelegate , MKAnnotation>
+{
+	IBOutlet MKMapView *schoolsMapView;
+}
+
+@property (nonatomic , strong) IBOutlet MKMapView *schoolsMapView;
+
+- (void)generatePins;
 
 @end
