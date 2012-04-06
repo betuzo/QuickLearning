@@ -19,6 +19,8 @@
 
 @property (nonatomic , strong) IBOutlet MKMapView *schoolsMapView;
 
+@property (nonatomic, retain) IBOutlet UIView *viewListSchools;
+
 @property (nonatomic, retain) IBOutlet iCarousel *carousel;
 
 @property (nonatomic, retain) IBOutlet UILabel *name;
@@ -29,6 +31,14 @@
 
 @property (nonatomic, retain) IBOutlet UILabel *telephone;
 
+@property (nonatomic, retain) IBOutlet UIImageView *img;
+
+@property (nonatomic, retain) IBOutlet UISegmentedControl *changeSchools;
+
+-(void)changeViewForSchools:(id)sender;
+
 - (void)generatePins;
+
+- (void)updateDetailSchoolByIndex:(NSInteger) index;
 
 @end

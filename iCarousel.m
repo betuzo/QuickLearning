@@ -1704,9 +1704,14 @@ NSComparisonResult compareViewDepth(UIView *view1, UIView *view2, iCarousel *sel
     else if (toggle == 0.0f)
     {
         [self stopAnimation];
+        if ([delegate respondsToSelector:@selector(carousel:didSelectItemAtIndex:)])
+        {
+            [delegate carousel:self didSelectItemAtIndex:[self currentItemIndex]];
+        }
     }
     
     [self enableAnimation];
+
 }
 
 //for iOS

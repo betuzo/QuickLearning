@@ -88,5 +88,4 @@
     return [[QuickLearningService usuario] objectAtIndex:2];
 }
 
-
 @end

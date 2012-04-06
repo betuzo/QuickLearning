@@ -413,9 +413,9 @@
 			isa = PBXGroup;
 			children = (
 				4A16CE24152A544600DC0D68 /* MainiPhoneViewController.h */,
+				4A16CE25152A544700DC0D68 /* MainiPhoneViewController.m */,
 				4A16CE49152B7F8400DC0D68 /* ParentMainiPhoneViewController.h */,
 				4A16CE4A152B7F8400DC0D68 /* ParentMainiPhoneViewController.m */,
-				4A16CE25152A544700DC0D68 /* MainiPhoneViewController.m */,
 			);
 			name = Main;
 			sourceTree = "<group>";

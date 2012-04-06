@@ -8,13 +8,17 @@
 
 #import "SchoolsiPhoneViewController.h"
 
-#define ITEM_SPACING 120
+#define ITEM_SPACING 100
 
 #define NUMBER_OF_ITEMS ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)? 19: 12)
 
 @implementation SchoolsiPhoneViewController
 
 @synthesize schoolsMapView = _schoolsMapView;
+
+@synthesize viewListSchools = _viewListSchools;
+
+@synthesize changeSchools = _changeSchools;
 
 @synthesize name = _name;
 
@@ -23,6 +27,8 @@
 @synthesize email = _email;
 
 @synthesize telephone = _telephone;
+
+@synthesize img = _img;
 
 @synthesize carousel;
 
@@ -49,7 +55,9 @@
 {
     [super viewDidLoad];
     [self generatePins];
-    carousel.type = iCarouselTypeCylinder;
+    carousel.type = iCarouselTypeCoverFlow;
+    
+        [_changeSchools addTarget:self action:@selector(changeViewForSchools:) forControlEvents:UIControlEventValueChanged];
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -65,6 +73,15 @@
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
+
+-(void)changeViewForSchools:(id)sender
+{
+    BOOL hiddenViewList = [_viewListSchools isHidden];
+    [_schoolsMapView setHidden:hiddenViewList];
+    [_viewListSchools setHidden:!hiddenViewList];
+}
+
+#pragma mark - businesss method
 
 - (void)generatePins
 {
@@ -82,6 +99,16 @@
         
         [_schoolsMapView addAnnotation:myAnnotation];
     }
+}
+
+- (void)updateDetailSchoolByIndex:(NSInteger) index
+{
+    NSString *fileName = [NSString stringWithFormat:@"%@.%@", [[[QuickLearningService sucursales] objectAtIndex:index]objectAtIndex:0], @"jpg"];
+    _img.image = [UIImage imageNamed:fileName];
+    _name.text = [[[QuickLearningService sucursales] objectAtIndex:index]objectAtIndex:1];
+    _address.text = [[[QuickLearningService sucursales] objectAtIndex:index]objectAtIndex:2];
+    _email.text = [[[QuickLearningService sucursales] objectAtIndex:index]objectAtIndex:4];
+    _telephone.text = [[[QuickLearningService sucursales] objectAtIndex:index]objectAtIndex:3];
 }
 
 #pragma mark - mapview delegate 
@@ -135,26 +162,30 @@
 	UIButton *button = (UIButton *)view;
 	if (button == nil)
 	{
-        NSString *fileName = [NSString stringWithFormat:@"%@.%@", [[[QuickLearningService sucursales] objectAtIndex:index]objectAtIndex:0], @"jpg"];
 		//no button available to recycle, so create new one
-		UIImage *image = [UIImage imageNamed:fileName];
+		UIImage *image = [UIImage imageNamed:@"page.png"];
 		button = [UIButton buttonWithType:UIButtonTypeCustom];
-		button.frame = CGRectMake(0.0f, 0.0f, 100.0f, 100.0f);
-		[button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+		button.frame = CGRectMake(0.0f, 0.0f, 150.0f, 50.0f);
+		[button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
 		[button setBackgroundImage:image forState:UIControlStateNormal];
-		button.titleLabel.font = [button.titleLabel.font fontWithSize:20];
+		button.titleLabel.font = [button.titleLabel.font fontWithSize:15];
 		[button addTarget:self action:@selector(buttonTapped:) forControlEvents:UIControlEventTouchUpInside];
 	}
 	
 	//set button label
 	[button setTitle:[[[QuickLearningService sucursales] objectAtIndex:index]objectAtIndex:1] forState:UIControlStateNormal];
-	
+
 	return button;
 }
 
 - (CGFloat)carouselItemWidth:(iCarousel *)carousel
 {
     return ITEM_SPACING;
+}
+
+- (void)carousel:(iCarousel *)carousel didSelectItemAtIndex:(NSInteger)index
+{
+    [self updateDetailSchoolByIndex:index];
 }
 
 #pragma mark -
