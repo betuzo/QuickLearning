@@ -16,6 +16,7 @@ static NSArray * seccInfo = nil;
 static NSArray * nivelesUsuario = nil;
 static NSArray * pagosUsuario = nil;
 static NSArray * sucursales = nil;
+static NSArray * avanceAprendizaje = nil;
 
 + (NSArray *) usuario
 {
@@ -41,6 +42,10 @@ static NSArray * sucursales = nil;
 + (NSArray *) sucursales
 {
     return sucursales;
+}
++ (NSArray *) avanceAprendizaje
+{
+    return avanceAprendizaje;
 }
 
 + (void)initializeDatosTest
@@ -103,7 +108,6 @@ static NSArray * sucursales = nil;
         [[NSArray alloc] initWithObjects:
             @"QLN008", @"Avanzado 2", @"En curso", [NSNumber numberWithInt:20120327], [NSNumber numberWithInt:0], @"", nil],
                       nil];
-                     
     
     pagosUsuario = [[NSArray alloc] initWithObjects:
                     [[NSArray alloc] initWithObjects:
@@ -127,8 +131,18 @@ static NSArray * sucursales = nil;
                     [[NSArray alloc] initWithObjects:
                      @"QLP010", @"Avanzado 2", @"Total", [NSNumber numberWithInt:20120327], [NSNumber numberWithInt:1728], nil],
                     nil];
-    
-}
 
+    avanceAprendizaje = [[NSArray alloc] initWithObjects:
+                  [[NSArray alloc] initWithObjects:
+                   @"Ejercicios", @"70%", @"80%", @"30%",nil],
+                  [[NSArray alloc] initWithObjects:
+                   @"Audios", @"70%", @"80%", @"30%",nil],
+                  [[NSArray alloc] initWithObjects:
+                   @"Videos", @"70%", @"80%", @"30%",nil],
+                  [[NSArray alloc] initWithObjects:
+                   @"Total", @"70%", @"80%", @"30%",nil],
+                  nil];
+
+}
 
 @end

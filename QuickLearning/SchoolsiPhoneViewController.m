@@ -57,7 +57,7 @@
     [self generatePins];
     carousel.type = iCarouselTypeCoverFlow;
     
-        [_changeSchools addTarget:self action:@selector(changeViewForSchools:) forControlEvents:UIControlEventValueChanged];
+    [_changeSchools addTarget:self action:@selector(changeViewForSchools:) forControlEvents:UIControlEventValueChanged];
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -194,13 +194,7 @@
 - (void)buttonTapped:(UIButton *)sender
 {
 	//get item index for button
-	NSInteger index = [carousel indexOfItemView:sender];
-	
-    [[[UIAlertView alloc] initWithTitle:@"Button Tapped"
-                                 message:[NSString stringWithFormat:@"You tapped button number %i", index]
-                                delegate:nil
-                       cancelButtonTitle:@"OK"
-                       otherButtonTitles:nil]  show];
+
 }
 
 - (BOOL)carouselShouldWrap:(iCarousel *)carousel

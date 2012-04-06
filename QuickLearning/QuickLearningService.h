@@ -16,6 +16,7 @@
 + (NSArray *) nivelesUsuario;
 + (NSArray *) pagosUsuario;
 + (NSArray *) sucursales;
++ (NSArray *) avanceAprendizaje;
 + (void) initializeDatosTest;
 
 @end

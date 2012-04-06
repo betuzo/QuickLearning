@@ -64,7 +64,7 @@
     }
     
     cell.selectionStyle = UITableViewCellSelectionStyleGray;
-    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
     
     cell.textLabel.text = [[QuickLearningService seccInfo] objectAtIndex:indexPath.row];
     

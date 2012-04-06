@@ -49,6 +49,15 @@
 		4A16CE4D152B7F8400DC0D68 /* ParentMainiPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A16CE4B152B7F8400DC0D68 /* ParentMainiPhoneViewController.xib */; };
 		4A16CE51152B7F9500DC0D68 /* ParentColoriPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A16CE4F152B7F9500DC0D68 /* ParentColoriPhoneViewController.m */; };
 		4A16CE52152B7F9500DC0D68 /* ParentColoriPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A16CE50152B7F9500DC0D68 /* ParentColoriPhoneViewController.xib */; };
+		4A196080152F7BA9009C5137 /* MyCourseCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A19607E152F7BA9009C5137 /* MyCourseCellViewController.m */; };
+		4A196081152F7BA9009C5137 /* MyCourseCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A19607F152F7BA9009C5137 /* MyCourseCellViewController.xib */; };
+		4A196086152F91BB009C5137 /* MyCourseContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A196084152F91BA009C5137 /* MyCourseContentViewController.m */; };
+		4A196087152F91BB009C5137 /* MyCourseContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A196085152F91BA009C5137 /* MyCourseContentViewController.xib */; };
+		4A19608B152FAF8E009C5137 /* MyCourseContent1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A196089152FAF8E009C5137 /* MyCourseContent1ViewController.m */; };
+		4A19608C152FAF8E009C5137 /* MyCourseContent1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A19608A152FAF8E009C5137 /* MyCourseContent1ViewController.xib */; };
+		4A196090152FAFBA009C5137 /* MyCourseContent2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A19608E152FAFB8009C5137 /* MyCourseContent2ViewController.m */; };
+		4A196091152FAFBA009C5137 /* MyCourseContent2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A19608F152FAFB9009C5137 /* MyCourseContent2ViewController.xib */; };
+		4A196093152FB123009C5137 /* camara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A196092152FB123009C5137 /* camara.jpg */; };
 		4AA536E2152CFE81007933A1 /* page.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA536E1152CFE81007933A1 /* page.png */; };
 		4AA536EA152D011D007933A1 /* phone-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA536E8152D011C007933A1 /* phone-icon.png */; };
 		4AA536EB152D011D007933A1 /* comp-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA536E9152D011C007933A1 /* comp-icon.png */; };
@@ -141,6 +150,19 @@
 		4A16CE4E152B7F9400DC0D68 /* ParentColoriPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentColoriPhoneViewController.h; sourceTree = "<group>"; };
 		4A16CE4F152B7F9500DC0D68 /* ParentColoriPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentColoriPhoneViewController.m; sourceTree = "<group>"; };
 		4A16CE50152B7F9500DC0D68 /* ParentColoriPhoneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParentColoriPhoneViewController.xib; sourceTree = "<group>"; };
+		4A19607D152F7BA9009C5137 /* MyCourseCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCourseCellViewController.h; sourceTree = "<group>"; };
+		4A19607E152F7BA9009C5137 /* MyCourseCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCourseCellViewController.m; sourceTree = "<group>"; };
+		4A19607F152F7BA9009C5137 /* MyCourseCellViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCourseCellViewController.xib; sourceTree = "<group>"; };
+		4A196083152F91BA009C5137 /* MyCourseContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCourseContentViewController.h; sourceTree = "<group>"; };
+		4A196084152F91BA009C5137 /* MyCourseContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCourseContentViewController.m; sourceTree = "<group>"; };
+		4A196085152F91BA009C5137 /* MyCourseContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCourseContentViewController.xib; sourceTree = "<group>"; };
+		4A196088152FAF8E009C5137 /* MyCourseContent1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCourseContent1ViewController.h; sourceTree = "<group>"; };
+		4A196089152FAF8E009C5137 /* MyCourseContent1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCourseContent1ViewController.m; sourceTree = "<group>"; };
+		4A19608A152FAF8E009C5137 /* MyCourseContent1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCourseContent1ViewController.xib; sourceTree = "<group>"; };
+		4A19608D152FAFB7009C5137 /* MyCourseContent2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCourseContent2ViewController.h; sourceTree = "<group>"; };
+		4A19608E152FAFB8009C5137 /* MyCourseContent2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCourseContent2ViewController.m; sourceTree = "<group>"; };
+		4A19608F152FAFB9009C5137 /* MyCourseContent2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCourseContent2ViewController.xib; sourceTree = "<group>"; };
+		4A196092152FB123009C5137 /* camara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camara.jpg; sourceTree = "<group>"; };
 		4AA536E1152CFE81007933A1 /* page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page.png; sourceTree = "<group>"; };
 		4AA536E8152D011C007933A1 /* phone-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone-icon.png"; sourceTree = "<group>"; };
 		4AA536E9152D011C007933A1 /* comp-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "comp-icon.png"; sourceTree = "<group>"; };
@@ -276,6 +298,7 @@
 		4A16CDED152A30D600DC0D68 /* Recursos */ = {
 			isa = PBXGroup;
 			children = (
+				4A196092152FB123009C5137 /* camara.jpg */,
 				4AA536EC152D03C5007933A1 /* QLS006.jpg */,
 				4AA536ED152D03C5007933A1 /* QLS004.jpg */,
 				4AA536EE152D03C5007933A1 /* QLS008.jpg */,
@@ -402,9 +425,9 @@
 			isa = PBXGroup;
 			children = (
 				4A16CE1A152A541E00DC0D68 /* ColoriPhoneViewController.h */,
+				4A16CE1B152A541E00DC0D68 /* ColoriPhoneViewController.m */,
 				4A16CE4E152B7F9400DC0D68 /* ParentColoriPhoneViewController.h */,
 				4A16CE4F152B7F9500DC0D68 /* ParentColoriPhoneViewController.m */,
-				4A16CE1B152A541E00DC0D68 /* ColoriPhoneViewController.m */,
 			);
 			name = Color;
 			sourceTree = "<group>";
@@ -440,6 +463,14 @@
 				4A16CE36152AB8F300DC0D68 /* MyCourseiPhoneViewController.m */,
 				4A16CE3F152B7F4000DC0D68 /* ParentMyCourseiPhoneViewController.h */,
 				4A16CE40152B7F4000DC0D68 /* ParentMyCourseiPhoneViewController.m */,
+				4A19607D152F7BA9009C5137 /* MyCourseCellViewController.h */,
+				4A19607E152F7BA9009C5137 /* MyCourseCellViewController.m */,
+				4A196083152F91BA009C5137 /* MyCourseContentViewController.h */,
+				4A196084152F91BA009C5137 /* MyCourseContentViewController.m */,
+				4A196088152FAF8E009C5137 /* MyCourseContent1ViewController.h */,
+				4A196089152FAF8E009C5137 /* MyCourseContent1ViewController.m */,
+				4A19608D152FAFB7009C5137 /* MyCourseContent2ViewController.h */,
+				4A19608E152FAFB8009C5137 /* MyCourseContent2ViewController.m */,
 			);
 			name = MyCourse;
 			sourceTree = "<group>";
@@ -474,8 +505,12 @@
 		4A16CE19152A53D800DC0D68 /* MyCourse */ = {
 			isa = PBXGroup;
 			children = (
+				4A19608F152FAFB9009C5137 /* MyCourseContent2ViewController.xib */,
+				4A19608A152FAF8E009C5137 /* MyCourseContent1ViewController.xib */,
 				4A16CE41152B7F4100DC0D68 /* ParentMyCourseiPhoneViewController.xib */,
 				4A16CE37152AB8F400DC0D68 /* MyCourseiPhoneViewController.xib */,
+				4A19607F152F7BA9009C5137 /* MyCourseCellViewController.xib */,
+				4A196085152F91BA009C5137 /* MyCourseContentViewController.xib */,
 			);
 			name = MyCourse;
 			sourceTree = "<group>";
@@ -582,6 +617,11 @@
 				4AA536F9152D03C7007933A1 /* QLS002.jpg in Resources */,
 				4AA536FA152D03C7007933A1 /* QLS005.jpg in Resources */,
 				4AA536FB152D03C7007933A1 /* QLS001.jpg in Resources */,
+				4A196081152F7BA9009C5137 /* MyCourseCellViewController.xib in Resources */,
+				4A196087152F91BB009C5137 /* MyCourseContentViewController.xib in Resources */,
+				4A19608C152FAF8E009C5137 /* MyCourseContent1ViewController.xib in Resources */,
+				4A196091152FAFBA009C5137 /* MyCourseContent2ViewController.xib in Resources */,
+				4A196093152FB123009C5137 /* camara.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -633,6 +673,10 @@
 				4AEEB852152BBDF800FD51F1 /* QuickLearningService.m in Sources */,
 				4AEEB873152CC20000FD51F1 /* SchoolPinAnotation.m in Sources */,
 				4A13ADE5152CE9870054447D /* iCarousel.m in Sources */,
+				4A196080152F7BA9009C5137 /* MyCourseCellViewController.m in Sources */,
+				4A196086152F91BB009C5137 /* MyCourseContentViewController.m in Sources */,
+				4A19608B152FAF8E009C5137 /* MyCourseContent1ViewController.m in Sources */,
+				4A196090152FAFBA009C5137 /* MyCourseContent2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
