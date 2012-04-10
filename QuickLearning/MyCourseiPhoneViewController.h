@@ -12,7 +12,13 @@
 #import "MyCourseContentViewController.h"
 #import "MyCourseContent1ViewController.h"
 #import "MyCourseContent2ViewController.h"
+#import "MyCourseHisLisViewController.h"
+#import "MyCourseHisGrafViewController.h"
 
 @interface MyCourseiPhoneViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
+
+@property(nonatomic, strong)IBOutlet UISegmentedControl *historial;
+
+- (IBAction) presentHistorial: (id) sender;
 
 @end

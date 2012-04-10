@@ -10,6 +10,8 @@
 
 @implementation MyCourseiPhoneViewController
 
+@synthesize historial = _historial;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -48,6 +50,24 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (IBAction) presentHistorial: (id) sender
+{
+    UIViewController *detailViewController = nil;
+    
+    if ([sender selectedSegmentIndex]==1)
+    {
+        detailViewController = [[MyCourseHisGrafViewController alloc] initWithNibName:@"MyCourseHisGrafViewController" bundle:nil];
+    }
+    else
+    {
+        detailViewController = [[MyCourseHisLisViewController alloc] initWithNibName:@"MyCourseHisLisViewController" bundle:nil];
+    }
+    
+    //Pass the selected object to the new view controller.
+    [self.navigationController pushViewController:detailViewController animated:YES];
+}
+
+
 #pragma mark - UITable
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -66,8 +86,10 @@
         cell = (MyCourseCellViewController *)[nib objectAtIndex:0];
     }
     
-    cell.selectionStyle = UITableViewCellSelectionStyleGray;
-    cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;    
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    if (indexPath.row < ([[QuickLearningService avanceAprendizaje] count] - 1)){
+        cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
+    }
     
     [[cell name] setText:[[[[QuickLearningService avanceAprendizaje] objectAtIndex:indexPath.row] allObjects] objectAtIndex:0]];
     [[cell total] setText:[[[[QuickLearningService avanceAprendizaje] objectAtIndex:indexPath.row] allObjects] objectAtIndex:1]];

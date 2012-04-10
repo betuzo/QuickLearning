@@ -58,6 +58,11 @@
 		4A196090152FAFBA009C5137 /* MyCourseContent2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A19608E152FAFB8009C5137 /* MyCourseContent2ViewController.m */; };
 		4A196091152FAFBA009C5137 /* MyCourseContent2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A19608F152FAFB9009C5137 /* MyCourseContent2ViewController.xib */; };
 		4A196093152FB123009C5137 /* camara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A196092152FB123009C5137 /* camara.jpg */; };
+		4A883C4C1534A58A004BBAF7 /* MyCourseHisLisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A883C4A1534A589004BBAF7 /* MyCourseHisLisViewController.m */; };
+		4A883C4D1534A58A004BBAF7 /* MyCourseHisLisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A883C4B1534A58A004BBAF7 /* MyCourseHisLisViewController.xib */; };
+		4A883C521534A5A2004BBAF7 /* MyCourseHisGrafViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A883C501534A5A0004BBAF7 /* MyCourseHisGrafViewController.m */; };
+		4A883C531534A5A2004BBAF7 /* MyCourseHisGrafViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A883C511534A5A1004BBAF7 /* MyCourseHisGrafViewController.xib */; };
+		4A883C551534A618004BBAF7 /* grafica.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4A883C541534A618004BBAF7 /* grafica.jpeg */; };
 		4AA536E2152CFE81007933A1 /* page.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA536E1152CFE81007933A1 /* page.png */; };
 		4AA536EA152D011D007933A1 /* phone-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA536E8152D011C007933A1 /* phone-icon.png */; };
 		4AA536EB152D011D007933A1 /* comp-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA536E9152D011C007933A1 /* comp-icon.png */; };
@@ -163,6 +168,13 @@
 		4A19608E152FAFB8009C5137 /* MyCourseContent2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCourseContent2ViewController.m; sourceTree = "<group>"; };
 		4A19608F152FAFB9009C5137 /* MyCourseContent2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCourseContent2ViewController.xib; sourceTree = "<group>"; };
 		4A196092152FB123009C5137 /* camara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camara.jpg; sourceTree = "<group>"; };
+		4A883C491534A588004BBAF7 /* MyCourseHisLisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCourseHisLisViewController.h; sourceTree = "<group>"; };
+		4A883C4A1534A589004BBAF7 /* MyCourseHisLisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCourseHisLisViewController.m; sourceTree = "<group>"; };
+		4A883C4B1534A58A004BBAF7 /* MyCourseHisLisViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCourseHisLisViewController.xib; sourceTree = "<group>"; };
+		4A883C4F1534A59F004BBAF7 /* MyCourseHisGrafViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCourseHisGrafViewController.h; sourceTree = "<group>"; };
+		4A883C501534A5A0004BBAF7 /* MyCourseHisGrafViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCourseHisGrafViewController.m; sourceTree = "<group>"; };
+		4A883C511534A5A1004BBAF7 /* MyCourseHisGrafViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCourseHisGrafViewController.xib; sourceTree = "<group>"; };
+		4A883C541534A618004BBAF7 /* grafica.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grafica.jpeg; sourceTree = "<group>"; };
 		4AA536E1152CFE81007933A1 /* page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page.png; sourceTree = "<group>"; };
 		4AA536E8152D011C007933A1 /* phone-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone-icon.png"; sourceTree = "<group>"; };
 		4AA536E9152D011C007933A1 /* comp-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "comp-icon.png"; sourceTree = "<group>"; };
@@ -298,6 +310,7 @@
 		4A16CDED152A30D600DC0D68 /* Recursos */ = {
 			isa = PBXGroup;
 			children = (
+				4A883C541534A618004BBAF7 /* grafica.jpeg */,
 				4A196092152FB123009C5137 /* camara.jpg */,
 				4AA536EC152D03C5007933A1 /* QLS006.jpg */,
 				4AA536ED152D03C5007933A1 /* QLS004.jpg */,
@@ -471,6 +484,10 @@
 				4A196089152FAF8E009C5137 /* MyCourseContent1ViewController.m */,
 				4A19608D152FAFB7009C5137 /* MyCourseContent2ViewController.h */,
 				4A19608E152FAFB8009C5137 /* MyCourseContent2ViewController.m */,
+				4A883C491534A588004BBAF7 /* MyCourseHisLisViewController.h */,
+				4A883C4A1534A589004BBAF7 /* MyCourseHisLisViewController.m */,
+				4A883C4F1534A59F004BBAF7 /* MyCourseHisGrafViewController.h */,
+				4A883C501534A5A0004BBAF7 /* MyCourseHisGrafViewController.m */,
 			);
 			name = MyCourse;
 			sourceTree = "<group>";
@@ -505,6 +522,8 @@
 		4A16CE19152A53D800DC0D68 /* MyCourse */ = {
 			isa = PBXGroup;
 			children = (
+				4A883C511534A5A1004BBAF7 /* MyCourseHisGrafViewController.xib */,
+				4A883C4B1534A58A004BBAF7 /* MyCourseHisLisViewController.xib */,
 				4A19608F152FAFB9009C5137 /* MyCourseContent2ViewController.xib */,
 				4A19608A152FAF8E009C5137 /* MyCourseContent1ViewController.xib */,
 				4A16CE41152B7F4100DC0D68 /* ParentMyCourseiPhoneViewController.xib */,
@@ -622,6 +641,9 @@
 				4A19608C152FAF8E009C5137 /* MyCourseContent1ViewController.xib in Resources */,
 				4A196091152FAFBA009C5137 /* MyCourseContent2ViewController.xib in Resources */,
 				4A196093152FB123009C5137 /* camara.jpg in Resources */,
+				4A883C4D1534A58A004BBAF7 /* MyCourseHisLisViewController.xib in Resources */,
+				4A883C531534A5A2004BBAF7 /* MyCourseHisGrafViewController.xib in Resources */,
+				4A883C551534A618004BBAF7 /* grafica.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,6 +699,8 @@
 				4A196086152F91BB009C5137 /* MyCourseContentViewController.m in Sources */,
 				4A19608B152FAF8E009C5137 /* MyCourseContent1ViewController.m in Sources */,
 				4A196090152FAFBA009C5137 /* MyCourseContent2ViewController.m in Sources */,
+				4A883C4C1534A58A004BBAF7 /* MyCourseHisLisViewController.m in Sources */,
+				4A883C521534A5A2004BBAF7 /* MyCourseHisGrafViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
