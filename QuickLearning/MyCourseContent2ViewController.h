@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MyCourseContent2ViewController : UIViewController
+@interface MyCourseContent2ViewController : UIViewController<UITextFieldDelegate>
+
+@property(nonatomic, strong)IBOutlet UITextField *response1;
+@property(nonatomic, strong)IBOutlet UITextField *response2;
+@property(nonatomic, strong)IBOutlet UITextField *response3;
+@property(nonatomic, strong)IBOutlet UITextField *response4;
+
+-(IBAction)editingEnded:(id)sender;
 
 @end

@@ -10,6 +10,11 @@
 
 @implementation MyCourseContent2ViewController
 
+@synthesize response1 = _response1;
+@synthesize response2 = _response2;
+@synthesize response3 = _response3;
+@synthesize response4 = _response4;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -46,6 +51,47 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+	if (textField == _response1 ) {
+		
+		[_response2 becomeFirstResponder];
+		
+	}
+    else if (textField == _response2 ) {
+		
+		[_response3 becomeFirstResponder];
+		
+	}
+    else if (textField == _response3 ) {
+		
+		[_response4 becomeFirstResponder];
+		
+	}
+	else if (textField == _response4){
+		
+		[_response4 resignFirstResponder];	
+	}
+	
+	return NO;
+}
+
+
+-(IBAction)editingEnded:(id)sender
+{
+    [sender resignFirstResponder]; 
+}
+
+#pragma mark - Touches Handling
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [_response1 resignFirstResponder];
+	[_response2 resignFirstResponder];
+	[_response3 resignFirstResponder];
+	[_response4 resignFirstResponder];
 }
 
 @end

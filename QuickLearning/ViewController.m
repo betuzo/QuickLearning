@@ -26,14 +26,14 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-	if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+	/*if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {*/
         
 		_loginViewiPhone = [[LoginiPhoneViewController alloc]initWithNibName:@"LoginiPhoneViewController" bundle:nil];
 		
 		[_loginViewiPhone.view setFrame:self.view.bounds];
 		[self.view addSubview:_loginViewiPhone.view];
 		
-    } else {
+    /*} else {
         
 		_loginViewiPad = [[LoginiPadViewController alloc]initWithNibName:@"LoginiPadViewController" bundle:nil];
 		
@@ -41,7 +41,7 @@
 		[self.view addSubview:_loginViewiPad.view];
 		
 		
-    }
+    }*/
     
     [QuickLearningService initializeDatosTest];
 }
