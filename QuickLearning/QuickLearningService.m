@@ -66,17 +66,19 @@ static NSArray * avanceAprendizaje = nil;
                   [[NSArray alloc] initWithObjects:
                    @"QLS002", @"Polanco", @"Gral. Mariano Escobedo No. 446", @"55896300", @"polanco@quicklearning.com", [NSNumber numberWithDouble:19.433916], [NSNumber numberWithDouble:-99.181942],nil],
                   [[NSArray alloc] initWithObjects:
-                   @"QLS003", @"Napoles", @"Insurgentes Sur No. 585", @"55896300", @"napoles@quicklearning.com", [NSNumber numberWithDouble:19.398217], [NSNumber numberWithDouble:-99.171213],nil],
+                   @"QLS003", @"Cancun", @"Av. Carlos J. Nader Super Manzana 2", @"66558822", @"cancun@quicklearning.com", [NSNumber numberWithDouble:21.165914], [NSNumber numberWithDouble:-86.824125],nil],
                   [[NSArray alloc] initWithObjects:
-                   @"QLS004", @"Cumbres", @"Av. Gonzalitos Norte No. 916", @"78899885", @"cumbres@quicklearning.com", [NSNumber numberWithDouble:25.698221], [NSNumber numberWithDouble:-100.351535],nil],
+                   @"QLS004", @"Napoles", @"Insurgentes Sur No. 585", @"55896300", @"napoles@quicklearning.com", [NSNumber numberWithDouble:19.398217], [NSNumber numberWithDouble:-99.171213],nil],
                   [[NSArray alloc] initWithObjects:
-                   @"QLS005", @"San Luis Potosi", @"Av. Venustiano Carranza No. 2315", @"44996633", @"sanluispotosi@quicklearning.com", [NSNumber numberWithDouble:22.148516], [NSNumber numberWithDouble:-101.011321],nil],
+                   @"QLS005", @"Cumbres", @"Av. Gonzalitos Norte No. 916", @"78899885", @"cumbres@quicklearning.com", [NSNumber numberWithDouble:25.698221], [NSNumber numberWithDouble:-100.351535],nil],
                   [[NSArray alloc] initWithObjects:
-                   @"QLS006", @"Arlington", @"2801 Eeast Division, Suite 104", @"11125541", @"arlington@quicklearning.com", [NSNumber numberWithDouble:32.744728], [NSNumber numberWithDouble:-97.059896],nil],
+                   @"QLS006", @"San Luis Potosi", @"Av. Venustiano Carranza No. 2315", @"44996633", @"sanluispotosi@quicklearning.com", [NSNumber numberWithDouble:22.148516], [NSNumber numberWithDouble:-101.011321],nil],
                   [[NSArray alloc] initWithObjects:
-                   @"QLS007", @"Phoenix", @"5814 W. Camelback Rd. 85301", @"88554466", @"phoenix@quicklearning.com", [NSNumber numberWithDouble:33.50969], [NSNumber numberWithDouble:-112.184452],nil],
+                   @"QLS007", @"Arlington", @"2801 Eeast Division, Suite 104", @"11125541", @"arlington@quicklearning.com", [NSNumber numberWithDouble:32.744728], [NSNumber numberWithDouble:-97.059896],nil],
                   [[NSArray alloc] initWithObjects:
-                   @"QLS008", @"Las Vegas", @"320 N. Nellis Blvd., Ste. 6", @"33885544", @"lasvegas@quicklearning.com", [NSNumber numberWithDouble:36.164518], [NSNumber numberWithDouble:-115.060753], nil],
+                   @"QLS008", @"Phoenix", @"5814 W. Camelback Rd. 85301", @"88554466", @"phoenix@quicklearning.com", [NSNumber numberWithDouble:33.50969], [NSNumber numberWithDouble:-112.184452],nil],
+                  [[NSArray alloc] initWithObjects:
+                   @"QLS009", @"Las Vegas", @"320 N. Nellis Blvd., Ste. 6", @"33885544", @"lasvegas@quicklearning.com", [NSNumber numberWithDouble:36.164518], [NSNumber numberWithDouble:-115.060753], nil],
                 nil];
     
     horarioUsuario = [[NSArray alloc] initWithObjects:
@@ -92,44 +94,44 @@ static NSArray * avanceAprendizaje = nil;
     
     nivelesUsuario = [[NSArray alloc] initWithObjects:
         [[NSArray alloc] initWithObjects:
-            @"QLN001", @"Basico 1", @"Cursado", [NSNumber numberWithInt:20110912], [NSNumber numberWithInt:20110930], @"A", nil],
+            @"QLN001", @"Basico 1", @"Cursado", [NSNumber numberWithInt:2011], [NSNumber numberWithInt:12], @"Septiembre", [NSNumber numberWithInt:20110930], @"A", nil],
         [[NSArray alloc] initWithObjects:
-            @"QLN002", @"Basico 2", @"Cursado", [NSNumber numberWithInt:20110931], [NSNumber numberWithInt:20111025], @"A", nil],
+            @"QLN002", @"Basico 2", @"Cursado", [NSNumber numberWithInt:2011], [NSNumber numberWithInt:31], @"Septiembre", [NSNumber numberWithInt:20111025], @"A", nil],
         [[NSArray alloc] initWithObjects:
-            @"QLN003", @"Basico 3", @"Cursado", [NSNumber numberWithInt:20111026], [NSNumber numberWithInt:20111111], @"B", nil],
+            @"QLN003", @"Basico 3", @"Cursado", [NSNumber numberWithInt:2011], [NSNumber numberWithInt:26], @"Octubre", [NSNumber numberWithInt:20111111], @"B", nil],
         [[NSArray alloc] initWithObjects:
-            @"QLN004", @"Intermedio 1", @"Cursado", [NSNumber numberWithInt:20111112], [NSNumber numberWithInt:20111203], @"A", nil],
+            @"QLN004", @"Intermedio 1", @"Cursado", [NSNumber numberWithInt:2011], [NSNumber numberWithInt:12], @"Noviembre", [NSNumber numberWithInt:20111203], @"A", nil],
         [[NSArray alloc] initWithObjects:
-            @"QLN005", @"Intermedio 2", @"Cursado", [NSNumber numberWithInt:20111204], [NSNumber numberWithInt:20111228], @"B", nil],
+            @"QLN005", @"Intermedio 2", @"Cursado", [NSNumber numberWithInt:2011], [NSNumber numberWithInt:04], @"Diciembre", [NSNumber numberWithInt:20111228], @"B", nil],
         [[NSArray alloc] initWithObjects:
-            @"QLN006", @"Intermedio 3", @"Cursado", [NSNumber numberWithInt:20111229], [NSNumber numberWithInt:20120127], @"A", nil],
+            @"QLN006", @"Intermedio 3", @"Cursado", [NSNumber numberWithInt:2011], [NSNumber numberWithInt:29], @"Diciembre", [NSNumber numberWithInt:20120127], @"A", nil],
         [[NSArray alloc] initWithObjects:
-            @"QLN007", @"Avanzado 1", @"Cursado", [NSNumber numberWithInt:20120128], [NSNumber numberWithInt:20120227], @"B", nil],
+            @"QLN007", @"Avanzado 1", @"Cursado", [NSNumber numberWithInt:2012], [NSNumber numberWithInt:28], @"Enero", [NSNumber numberWithInt:20120227], @"B", nil],
         [[NSArray alloc] initWithObjects:
-            @"QLN008", @"Avanzado 2", @"En curso", [NSNumber numberWithInt:20120327], [NSNumber numberWithInt:0], @"", nil],
+            @"QLN008", @"Avanzado 2", @"En curso", [NSNumber numberWithInt:2012], [NSNumber numberWithInt:27], @"Febrero", [NSNumber numberWithInt:0], @"", nil],
                       nil];
     
     pagosUsuario = [[NSArray alloc] initWithObjects:
                     [[NSArray alloc] initWithObjects:
-                     @"QLP001", @"Basico 1", @"Abono", [NSNumber numberWithInt:20110912], [NSNumber numberWithInt:400], nil],
+                     @"QLP001", @"Basico 1", @"Abono", [NSNumber numberWithInt:2011], [NSNumber numberWithInt:12], @"Septiembre", [NSNumber numberWithInt:400], nil],
                     [[NSArray alloc] initWithObjects:
-                     @"QLP002", @"Basico 1", @"Total", [NSNumber numberWithInt:20110931], [NSNumber numberWithInt:1570], nil],
+                     @"QLP002", @"Basico 1", @"Final", [NSNumber numberWithInt:2011], [NSNumber numberWithInt:31], @"Septiembre", [NSNumber numberWithInt:1570], nil],
                     [[NSArray alloc] initWithObjects:
-                     @"QLP003", @"Basico 2", @"Total", [NSNumber numberWithInt:20111026], [NSNumber numberWithInt:1728], nil],
+                     @"QLP003", @"Basico 2", @"Final", [NSNumber numberWithInt:2011], [NSNumber numberWithInt:16], @"Octubre", [NSNumber numberWithInt:1728], nil],
                     [[NSArray alloc] initWithObjects:
-                     @"QLP004", @"Basico 3", @"Total", [NSNumber numberWithInt:20111026], [NSNumber numberWithInt:1970], nil],
+                     @"QLP004", @"Basico 3", @"Final", [NSNumber numberWithInt:2011], [NSNumber numberWithInt:9], @"Noviembre", [NSNumber numberWithInt:1970], nil],
                     [[NSArray alloc] initWithObjects:
-                     @"QLP005", @"Intermedio 1", @"Total", [NSNumber numberWithInt:20111112], [NSNumber numberWithInt:1970], nil],
+                     @"QLP005", @"Intermedio 1", @"Final", [NSNumber numberWithInt:2011], [NSNumber numberWithInt:12], @"Noviembre", [NSNumber numberWithInt:1970], nil],
                     [[NSArray alloc] initWithObjects:
-                     @"QLP006", @"Intermedio 2", @"Total", [NSNumber numberWithInt:20111204], [NSNumber numberWithInt:1728], nil],
+                     @"QLP006", @"Intermedio 2", @"Final", [NSNumber numberWithInt:2011], [NSNumber numberWithInt:4], @"Diciembre", [NSNumber numberWithInt:1728], nil],
                     [[NSArray alloc] initWithObjects:
-                     @"QLP007", @"Intermedio 3", @"Abono", [NSNumber numberWithInt:20111229], [NSNumber numberWithInt:700], nil],
+                     @"QLP007", @"Intermedio 3", @"Abono", [NSNumber numberWithInt:2011], [NSNumber numberWithInt:29], @"Diciembre", [NSNumber numberWithInt:700], nil],
                     [[NSArray alloc] initWithObjects:
-                     @"QLP008", @"Intermedio 3", @"Total", [NSNumber numberWithInt:20111229], [NSNumber numberWithInt:1270], nil],
+                     @"QLP008", @"Intermedio 3", @"Final", [NSNumber numberWithInt:2011], [NSNumber numberWithInt:29], @"Diciembre", [NSNumber numberWithInt:1270], nil],
                     [[NSArray alloc] initWithObjects:
-                     @"QLP009", @"Avanzado 1", @"Total", [NSNumber numberWithInt:20120128], [NSNumber numberWithInt:1728], nil],
+                     @"QLP009", @"Avanzado 1", @"Final", [NSNumber numberWithInt:2012], [NSNumber numberWithInt:28], @"Enero", [NSNumber numberWithInt:1728], nil],
                     [[NSArray alloc] initWithObjects:
-                     @"QLP010", @"Avanzado 2", @"Total", [NSNumber numberWithInt:20120327], [NSNumber numberWithInt:1728], nil],
+                     @"QLP010", @"Avanzado 2", @"Final", [NSNumber numberWithInt:2012], [NSNumber numberWithInt:27], @"Febrero", [NSNumber numberWithInt:1728], nil],
                     nil];
 
     avanceAprendizaje = [[NSArray alloc] initWithObjects:

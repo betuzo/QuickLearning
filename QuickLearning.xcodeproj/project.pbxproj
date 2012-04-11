@@ -63,6 +63,7 @@
 		4A883C521534A5A2004BBAF7 /* MyCourseHisGrafViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A883C501534A5A0004BBAF7 /* MyCourseHisGrafViewController.m */; };
 		4A883C531534A5A2004BBAF7 /* MyCourseHisGrafViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A883C511534A5A1004BBAF7 /* MyCourseHisGrafViewController.xib */; };
 		4A883C551534A618004BBAF7 /* grafica.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4A883C541534A618004BBAF7 /* grafica.jpeg */; };
+		4A883C571534E13E004BBAF7 /* QLS009.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A883C561534E13E004BBAF7 /* QLS009.jpg */; };
 		4AA536E2152CFE81007933A1 /* page.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA536E1152CFE81007933A1 /* page.png */; };
 		4AA536EA152D011D007933A1 /* phone-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA536E8152D011C007933A1 /* phone-icon.png */; };
 		4AA536EB152D011D007933A1 /* comp-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA536E9152D011C007933A1 /* comp-icon.png */; };
@@ -74,6 +75,11 @@
 		4AA536F9152D03C7007933A1 /* QLS002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AA536F1152D03C6007933A1 /* QLS002.jpg */; };
 		4AA536FA152D03C7007933A1 /* QLS005.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AA536F2152D03C6007933A1 /* QLS005.jpg */; };
 		4AA536FB152D03C7007933A1 /* QLS001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AA536F3152D03C6007933A1 /* QLS001.jpg */; };
+		4ACA529F15361A9100930428 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACA529D15361A9100930428 /* ProfileViewController.m */; };
+		4ACA52A015361A9100930428 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ACA529E15361A9100930428 /* ProfileViewController.xib */; };
+		4ACA52A315361E0000930428 /* Rostro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4ACA52A215361E0000930428 /* Rostro.jpg */; };
+		4ACA52A81536225500930428 /* PagosiPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACA52A61536225500930428 /* PagosiPhoneViewController.m */; };
+		4ACA52A91536225500930428 /* PagosiPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ACA52A71536225500930428 /* PagosiPhoneViewController.xib */; };
 		4AEEB852152BBDF800FD51F1 /* QuickLearningService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEEB851152BBDF800FD51F1 /* QuickLearningService.m */; };
 		4AEEB854152BBFDD00FD51F1 /* analisis in Resources */ = {isa = PBXBuildFile; fileRef = 4AEEB853152BBFDD00FD51F1 /* analisis */; };
 		4AEEB85E152CB4B600FD51F1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AEEB85D152CB4B500FD51F1 /* AudioToolbox.framework */; };
@@ -175,6 +181,7 @@
 		4A883C501534A5A0004BBAF7 /* MyCourseHisGrafViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCourseHisGrafViewController.m; sourceTree = "<group>"; };
 		4A883C511534A5A1004BBAF7 /* MyCourseHisGrafViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCourseHisGrafViewController.xib; sourceTree = "<group>"; };
 		4A883C541534A618004BBAF7 /* grafica.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grafica.jpeg; sourceTree = "<group>"; };
+		4A883C561534E13E004BBAF7 /* QLS009.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = QLS009.jpg; sourceTree = "<group>"; };
 		4AA536E1152CFE81007933A1 /* page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page.png; sourceTree = "<group>"; };
 		4AA536E8152D011C007933A1 /* phone-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone-icon.png"; sourceTree = "<group>"; };
 		4AA536E9152D011C007933A1 /* comp-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "comp-icon.png"; sourceTree = "<group>"; };
@@ -186,6 +193,13 @@
 		4AA536F1152D03C6007933A1 /* QLS002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = QLS002.jpg; sourceTree = "<group>"; };
 		4AA536F2152D03C6007933A1 /* QLS005.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = QLS005.jpg; sourceTree = "<group>"; };
 		4AA536F3152D03C6007933A1 /* QLS001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = QLS001.jpg; sourceTree = "<group>"; };
+		4ACA529C15361A9100930428 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		4ACA529D15361A9100930428 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		4ACA529E15361A9100930428 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		4ACA52A215361E0000930428 /* Rostro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rostro.jpg; sourceTree = "<group>"; };
+		4ACA52A51536225500930428 /* PagosiPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagosiPhoneViewController.h; sourceTree = "<group>"; };
+		4ACA52A61536225500930428 /* PagosiPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagosiPhoneViewController.m; sourceTree = "<group>"; };
+		4ACA52A71536225500930428 /* PagosiPhoneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PagosiPhoneViewController.xib; sourceTree = "<group>"; };
 		4AEEB850152BBDF800FD51F1 /* QuickLearningService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickLearningService.h; sourceTree = "<group>"; };
 		4AEEB851152BBDF800FD51F1 /* QuickLearningService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickLearningService.m; sourceTree = "<group>"; };
 		4AEEB853152BBFDD00FD51F1 /* analisis */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = analisis; sourceTree = "<group>"; };
@@ -310,6 +324,8 @@
 		4A16CDED152A30D600DC0D68 /* Recursos */ = {
 			isa = PBXGroup;
 			children = (
+				4ACA52A215361E0000930428 /* Rostro.jpg */,
+				4A883C561534E13E004BBAF7 /* QLS009.jpg */,
 				4A883C541534A618004BBAF7 /* grafica.jpeg */,
 				4A196092152FB123009C5137 /* camara.jpg */,
 				4AA536EC152D03C5007933A1 /* QLS006.jpg */,
@@ -448,6 +464,8 @@
 		4A16CE13152A536600DC0D68 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				4ACA52A41536223200930428 /* Pagos */,
+				4ACA529B15361A7500930428 /* Profile */,
 				4A16CE24152A544600DC0D68 /* MainiPhoneViewController.h */,
 				4A16CE25152A544700DC0D68 /* MainiPhoneViewController.m */,
 				4A16CE49152B7F8400DC0D68 /* ParentMainiPhoneViewController.h */,
@@ -472,22 +490,14 @@
 		4A16CE15152A536E00DC0D68 /* MyCourse */ = {
 			isa = PBXGroup;
 			children = (
+				4ACA529915361A1E00930428 /* Avance */,
+				4ACA5292153609D300930428 /* Historial */,
 				4A16CE35152AB8F300DC0D68 /* MyCourseiPhoneViewController.h */,
 				4A16CE36152AB8F300DC0D68 /* MyCourseiPhoneViewController.m */,
 				4A16CE3F152B7F4000DC0D68 /* ParentMyCourseiPhoneViewController.h */,
 				4A16CE40152B7F4000DC0D68 /* ParentMyCourseiPhoneViewController.m */,
 				4A19607D152F7BA9009C5137 /* MyCourseCellViewController.h */,
 				4A19607E152F7BA9009C5137 /* MyCourseCellViewController.m */,
-				4A196083152F91BA009C5137 /* MyCourseContentViewController.h */,
-				4A196084152F91BA009C5137 /* MyCourseContentViewController.m */,
-				4A196088152FAF8E009C5137 /* MyCourseContent1ViewController.h */,
-				4A196089152FAF8E009C5137 /* MyCourseContent1ViewController.m */,
-				4A19608D152FAFB7009C5137 /* MyCourseContent2ViewController.h */,
-				4A19608E152FAFB8009C5137 /* MyCourseContent2ViewController.m */,
-				4A883C491534A588004BBAF7 /* MyCourseHisLisViewController.h */,
-				4A883C4A1534A589004BBAF7 /* MyCourseHisLisViewController.m */,
-				4A883C4F1534A59F004BBAF7 /* MyCourseHisGrafViewController.h */,
-				4A883C501534A5A0004BBAF7 /* MyCourseHisGrafViewController.m */,
 			);
 			name = MyCourse;
 			sourceTree = "<group>";
@@ -504,6 +514,8 @@
 		4A16CE17152A53D400DC0D68 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				4ACA52AA1536225C00930428 /* Pagos */,
+				4ACA52A115361A9900930428 /* Profile */,
 				4A16CE4B152B7F8400DC0D68 /* ParentMainiPhoneViewController.xib */,
 				4A16CE26152A544800DC0D68 /* MainiPhoneViewController.xib */,
 			);
@@ -522,16 +534,90 @@
 		4A16CE19152A53D800DC0D68 /* MyCourse */ = {
 			isa = PBXGroup;
 			children = (
-				4A883C511534A5A1004BBAF7 /* MyCourseHisGrafViewController.xib */,
-				4A883C4B1534A58A004BBAF7 /* MyCourseHisLisViewController.xib */,
-				4A19608F152FAFB9009C5137 /* MyCourseContent2ViewController.xib */,
-				4A19608A152FAF8E009C5137 /* MyCourseContent1ViewController.xib */,
+				4ACA529A15361A4300930428 /* Avance */,
+				4ACA529415360A0700930428 /* Historial */,
 				4A16CE41152B7F4100DC0D68 /* ParentMyCourseiPhoneViewController.xib */,
 				4A16CE37152AB8F400DC0D68 /* MyCourseiPhoneViewController.xib */,
 				4A19607F152F7BA9009C5137 /* MyCourseCellViewController.xib */,
-				4A196085152F91BA009C5137 /* MyCourseContentViewController.xib */,
 			);
 			name = MyCourse;
+			sourceTree = "<group>";
+		};
+		4ACA5292153609D300930428 /* Historial */ = {
+			isa = PBXGroup;
+			children = (
+				4A883C491534A588004BBAF7 /* MyCourseHisLisViewController.h */,
+				4A883C4A1534A589004BBAF7 /* MyCourseHisLisViewController.m */,
+				4A883C4F1534A59F004BBAF7 /* MyCourseHisGrafViewController.h */,
+				4A883C501534A5A0004BBAF7 /* MyCourseHisGrafViewController.m */,
+			);
+			name = Historial;
+			sourceTree = "<group>";
+		};
+		4ACA529415360A0700930428 /* Historial */ = {
+			isa = PBXGroup;
+			children = (
+				4A883C511534A5A1004BBAF7 /* MyCourseHisGrafViewController.xib */,
+				4A883C4B1534A58A004BBAF7 /* MyCourseHisLisViewController.xib */,
+			);
+			name = Historial;
+			sourceTree = "<group>";
+		};
+		4ACA529915361A1E00930428 /* Avance */ = {
+			isa = PBXGroup;
+			children = (
+				4A196083152F91BA009C5137 /* MyCourseContentViewController.h */,
+				4A196084152F91BA009C5137 /* MyCourseContentViewController.m */,
+				4A196088152FAF8E009C5137 /* MyCourseContent1ViewController.h */,
+				4A196089152FAF8E009C5137 /* MyCourseContent1ViewController.m */,
+				4A19608D152FAFB7009C5137 /* MyCourseContent2ViewController.h */,
+				4A19608E152FAFB8009C5137 /* MyCourseContent2ViewController.m */,
+			);
+			name = Avance;
+			sourceTree = "<group>";
+		};
+		4ACA529A15361A4300930428 /* Avance */ = {
+			isa = PBXGroup;
+			children = (
+				4A19608F152FAFB9009C5137 /* MyCourseContent2ViewController.xib */,
+				4A19608A152FAF8E009C5137 /* MyCourseContent1ViewController.xib */,
+				4A196085152F91BA009C5137 /* MyCourseContentViewController.xib */,
+			);
+			name = Avance;
+			sourceTree = "<group>";
+		};
+		4ACA529B15361A7500930428 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				4ACA529C15361A9100930428 /* ProfileViewController.h */,
+				4ACA529D15361A9100930428 /* ProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		4ACA52A115361A9900930428 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				4ACA529E15361A9100930428 /* ProfileViewController.xib */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		4ACA52A41536223200930428 /* Pagos */ = {
+			isa = PBXGroup;
+			children = (
+				4ACA52A51536225500930428 /* PagosiPhoneViewController.h */,
+				4ACA52A61536225500930428 /* PagosiPhoneViewController.m */,
+			);
+			name = Pagos;
+			sourceTree = "<group>";
+		};
+		4ACA52AA1536225C00930428 /* Pagos */ = {
+			isa = PBXGroup;
+			children = (
+				4ACA52A71536225500930428 /* PagosiPhoneViewController.xib */,
+			);
+			name = Pagos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -644,6 +730,10 @@
 				4A883C4D1534A58A004BBAF7 /* MyCourseHisLisViewController.xib in Resources */,
 				4A883C531534A5A2004BBAF7 /* MyCourseHisGrafViewController.xib in Resources */,
 				4A883C551534A618004BBAF7 /* grafica.jpeg in Resources */,
+				4A883C571534E13E004BBAF7 /* QLS009.jpg in Resources */,
+				4ACA52A015361A9100930428 /* ProfileViewController.xib in Resources */,
+				4ACA52A315361E0000930428 /* Rostro.jpg in Resources */,
+				4ACA52A91536225500930428 /* PagosiPhoneViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -701,6 +791,8 @@
 				4A196090152FAFBA009C5137 /* MyCourseContent2ViewController.m in Sources */,
 				4A883C4C1534A58A004BBAF7 /* MyCourseHisLisViewController.m in Sources */,
 				4A883C521534A5A2004BBAF7 /* MyCourseHisGrafViewController.m in Sources */,
+				4ACA529F15361A9100930428 /* ProfileViewController.m in Sources */,
+				4ACA52A81536225500930428 /* PagosiPhoneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

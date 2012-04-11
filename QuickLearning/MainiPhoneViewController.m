@@ -63,7 +63,7 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
-    cell.selectionStyle = UITableViewCellSelectionStyleGray;
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
     
     cell.textLabel.text = [[QuickLearningService seccInfo] objectAtIndex:indexPath.row];
@@ -72,15 +72,27 @@
     
 }
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+- (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath
 {
     
-    //DetailMainiPhoneViewController *detailViewController = [[DetailMainiPhoneViewController alloc] initWithNibName:@"DetailMainiPhoneViewController" bundle:nil];
+    UIViewController *detailViewController = nil;
     
-    // Pass the selected object to the new view controller.
-    //[self.navigationController pushViewController:detailViewController animated:YES];
+    switch (indexPath.row) {
+        case 0:
+            detailViewController = [[ProfileViewController alloc] initWithNibName:@"ProfileViewController" bundle:nil];
+            break;
+        case 1:
+            detailViewController = [[PagosiPhoneViewController alloc] initWithNibName:@"PagosiPhoneViewController" bundle:nil];
+            break;
+        case 2:
+            detailViewController = [[MyCourseiPhoneViewController alloc] initWithNibName:@"MyCourseiPhoneViewController" bundle:nil];
+            break;
+        default:
+            break;
+    }
     
-	
+    //Pass the selected object to the new view controller.
+    [self.navigationController pushViewController:detailViewController animated:YES];
 }
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section

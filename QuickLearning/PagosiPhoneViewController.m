@@ -1,14 +1,14 @@
 //
-//  MyCourseHisLisViewController.m
+//  PagosiPhoneViewController.m
 //  QuickLearning
 //
-//  Created by Roberto Salvador Olguín Lozano on 10/04/12.
+//  Created by Roberto Salvador Olguín Lozano on 11/04/12.
 //  Copyright (c) 2012 Valle del Bit. All rights reserved.
 //
 
-#import "MyCourseHisLisViewController.h"
+#import "PagosiPhoneViewController.h"
 
-@implementation MyCourseHisLisViewController
+@implementation PagosiPhoneViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -52,7 +52,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [[QuickLearningService nivelesUsuario] count];
+    return [[QuickLearningService pagosUsuario] count] + 1;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -64,14 +64,23 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
     }
     
-    cell.selectionStyle = UITableViewCellSelectionStyleGray;
-    cell.accessoryType = UITableViewCellAccessoryNone;
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     
-    cell.textLabel.text = [[[QuickLearningService nivelesUsuario] objectAtIndex:indexPath.row] objectAtIndex:1];
-    
-    NSString *detail = [NSString stringWithFormat:@"%@, %@ de  %@ de %@", [[[QuickLearningService nivelesUsuario] objectAtIndex:indexPath.row] objectAtIndex:2], [[[QuickLearningService nivelesUsuario] objectAtIndex:indexPath.row] objectAtIndex:4], [[[QuickLearningService nivelesUsuario] objectAtIndex:indexPath.row] objectAtIndex:5], [[[QuickLearningService nivelesUsuario] objectAtIndex:indexPath.row] objectAtIndex:3]];
-    
-    cell.detailTextLabel.text = detail;
+    if (indexPath.row == 0)
+    {
+        cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
+        cell.textLabel.text = @"Agregar Pago";
+    }
+    else
+    {
+        cell.accessoryType = UITableViewCellAccessoryNone;
+        
+        NSInteger _row = indexPath.row -1;
+        
+        cell.textLabel.text = [NSString stringWithFormat:@"%@ %@, nivel %@", [[[QuickLearningService pagosUsuario] objectAtIndex:_row] objectAtIndex:2], [[[QuickLearningService pagosUsuario] objectAtIndex:_row] objectAtIndex:6], [[[QuickLearningService pagosUsuario] objectAtIndex:_row] objectAtIndex:1]];
+        
+        cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ de  %@ de %@", [[[QuickLearningService pagosUsuario] objectAtIndex:_row] objectAtIndex:4], [[[QuickLearningService pagosUsuario] objectAtIndex:_row] objectAtIndex:5], [[[QuickLearningService pagosUsuario] objectAtIndex:_row] objectAtIndex:3]];
+    }
     
     return cell;
     

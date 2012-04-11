@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "QuickLearningService.h"
+#import "ProfileViewController.h"
+#import "MyCourseiPhoneViewController.h"
+#import "PagosiPhoneViewController.h"
 
 @interface MainiPhoneViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
 
