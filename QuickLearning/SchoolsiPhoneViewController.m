@@ -149,6 +149,20 @@
 	//[self.navigationController pushViewController:storesDetailViewController animated:YES];
 }
 
+- (void) mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation
+{
+	MKCoordinateRegion region;
+    MKCoordinateSpan span;
+    span.latitudeDelta = 0.05;
+    span.longitudeDelta = 0.05;
+    CLLocationCoordinate2D location;
+    location.latitude = userLocation.coordinate.latitude;
+    location.longitude = userLocation.coordinate.longitude;
+    region.span = span;
+    region.center = location;
+    [_schoolsMapView setRegion:region animated:YES];
+}
+
 #pragma mark -
 #pragma mark iCarousel methods
 
@@ -200,6 +214,20 @@
 - (BOOL)carouselShouldWrap:(iCarousel *)carousel
 {
     return YES;
+}
+
+-(IBAction)updateUserLocation:(id)sender
+{
+    MKCoordinateRegion region;
+    MKCoordinateSpan span;
+    span.latitudeDelta = 0.05;
+    span.longitudeDelta = 0.05;
+    CLLocationCoordinate2D location;
+    location.latitude = [_schoolsMapView userLocation].coordinate.latitude;
+    location.longitude = [_schoolsMapView userLocation].coordinate.longitude;
+    region.span = span;
+    region.center = location;
+    [_schoolsMapView setRegion:region animated:YES];
 }
 
 @end

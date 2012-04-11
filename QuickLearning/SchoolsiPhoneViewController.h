@@ -41,4 +41,6 @@
 
 - (void)updateDetailSchoolByIndex:(NSInteger) index;
 
+-(IBAction)updateUserLocation:(id)sender;
+
 @end
