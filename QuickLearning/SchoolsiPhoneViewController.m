@@ -14,6 +14,8 @@
 
 @implementation SchoolsiPhoneViewController
 
+@synthesize isFirst = _isFirst;
+
 @synthesize schoolsMapView = _schoolsMapView;
 
 @synthesize viewListSchools = _viewListSchools;
@@ -151,16 +153,11 @@
 
 - (void) mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation
 {
-	MKCoordinateRegion region;
-    MKCoordinateSpan span;
-    span.latitudeDelta = 0.05;
-    span.longitudeDelta = 0.05;
-    CLLocationCoordinate2D location;
-    location.latitude = userLocation.coordinate.latitude;
-    location.longitude = userLocation.coordinate.longitude;
-    region.span = span;
-    region.center = location;
-    [_schoolsMapView setRegion:region animated:YES];
+    if (_isFirst)
+    {
+        _isFirst = FALSE;
+        [self showUserLocation];
+    }
 }
 
 #pragma mark -
@@ -218,6 +215,11 @@
 
 -(IBAction)updateUserLocation:(id)sender
 {
+    [self showUserLocation];
+}
+
+-(void)showUserLocation
+{
     MKCoordinateRegion region;
     MKCoordinateSpan span;
     span.latitudeDelta = 0.05;
@@ -227,7 +229,7 @@
     location.longitude = [_schoolsMapView userLocation].coordinate.longitude;
     region.span = span;
     region.center = location;
-    [_schoolsMapView setRegion:region animated:YES];
+    [_schoolsMapView setRegion:region animated:YES];    
 }
 
 @end

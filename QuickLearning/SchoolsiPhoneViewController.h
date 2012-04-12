@@ -17,6 +17,8 @@
 	IBOutlet MKMapView *schoolsMapView;
 }
 
+@property BOOL isFirst;
+
 @property (nonatomic , strong) IBOutlet MKMapView *schoolsMapView;
 
 @property (nonatomic, retain) IBOutlet UIView *viewListSchools;
@@ -37,9 +39,11 @@
 
 -(void)changeViewForSchools:(id)sender;
 
-- (void)generatePins;
+-(void)generatePins;
 
-- (void)updateDetailSchoolByIndex:(NSInteger) index;
+-(void)showUserLocation;
+
+-(void)updateDetailSchoolByIndex:(NSInteger) index;
 
 -(IBAction)updateUserLocation:(id)sender;
 
